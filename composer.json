@@ -1,0 +1,16 @@
+{
+    "name": "atelierspierrot/famfamfam-flags-sprite",
+    "type": "library",
+    "description": "The UNOFFICIAL sprite of the Flags icons by FamFamFam (http://www.famfamfam.com/lab/icons/flags/)",
+    "keywords": [ "icons", "sprite", "flags", "famfamfam" ],
+    "homepage": "http://github.com/atelierspierrot/famfamfam-flags-sprite",
+    "version": "1.0.0",
+    "authors": [{
+            "name": "FamFamFam",
+            "homepage": "http://www.famfamfam.com/"
+        },{
+            "name": "Les Ateliers Pierrot",
+            "email": "contact@ateliers-pierrot.fr",
+            "homepage": "http://www.ateliers-pierrot.fr/"
+    }]
+}
