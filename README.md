@@ -1,5 +1,5 @@
 FamFamFam - Flags icons CSS sprite
-=================================
+==================================
 
 The **UNOFFICIAL** sprites of the *FamFamFam Flags icons*
 by [FamFamFam](http://www.famfamfam.com).
