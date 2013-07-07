@@ -52,8 +52,8 @@ To do so, you first need to include the CSS definitions:
 
 Then you can start writing some Flag icons spans using the framework explained below.
 
-A demonstration page is available in the global package (that requires a PHP server) in 
-`demo/` ; it shows in particular the list of available icons and their names.
+A demonstration page is available in the global package in `demo/` ; it shows in particular
+the list of available icons and their names.
 
 ### CSS Framework
 
