@@ -62,12 +62,12 @@ least of work.
 
 The CSS framework to use the sprites is based on two classes:
 
--   the first one to choose the icons size: `flag-icon`,
+-   the first one to prepare a flag icon, that is common and global: `flag-icon`,
 -   the last one to choose the icon itself, which is the name of the icon, which is itself
-    the name of a country following the
-    [ISO 3166-1 alpha-2 country codes](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
+    the code of a country following the
+    [ISO 3166-1 alpha-2 specifications](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
 
-For instance, to render a the "us" icon, you will write:
+For instance, to render the United States flag (which code is "us"), you will write:
 
     <span class="flag-icon us"></span>
 
@@ -84,7 +84,7 @@ As mentioned above, the original set of icons is made by [FamFamFam](http://www.
 (Mark James - UK) and proposed under a free license.
 
 The sprite was generated with the help of [website-performance.org](http://spritegen.website-performance.org/)
-and are CSS3 valid.
+and is CSS3 valid.
 
 The minified version of the CSS file of the package was processed with the [YUI Compressor](http://refresh-sf.com/yui/).
 
