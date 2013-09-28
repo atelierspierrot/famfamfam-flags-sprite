@@ -41,7 +41,10 @@ Packagist so you can write in your `composer.json`:
     }
 
 The package has a `library-assets` type to allow handling by the
-[Assets Manager](http://github.com/atelierspierrot/assets-manager) Composer's extension.
+[Assets Manager](http://github.com/atelierspierrot/assets-manager) Composer's extension. If
+you plan to use the manager, you can use the `assets-install` branch of the package, which
+has the AssetsManager in its requirements (to be sure it will be loaded before the sprite
+and be able to move it in the project assets).
 
 ### HTML usage
 
