@@ -19,5 +19,12 @@
         "atelierspierrot/library": "dev-master",
         "atelierspierrot/assets-manager": "dev-master"
     },
-    "extra": { "assets-dir": "src" }
+    "extra": {
+        "assets-dir": "src",
+        "assets-presets": {
+            "gentleface-sprites": {
+                "css": "flags-sprite.min.css"
+            }
+        }
+    }
 }
