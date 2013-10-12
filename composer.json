@@ -22,7 +22,7 @@
     "extra": {
         "assets-dir": "src",
         "assets-presets": {
-            "gentleface-sprites": {
+            "famfamfam-flags-icons": {
                 "css": "flags-sprite.min.css"
             }
         }
