@@ -18,9 +18,6 @@
             "famfamfam-flags-icons": {
                 "css": "flags-sprite.min.css"
             }
-        },
-        "branch-alias": {
-            "dev-master": "1.0-dev"
         }
     }
 }
