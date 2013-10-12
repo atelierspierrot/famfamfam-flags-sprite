@@ -4,7 +4,6 @@
     "description": "The UNOFFICIAL sprite of the Flags icons by FamFamFam (http://www.famfamfam.com/lab/icons/flags/)",
     "keywords": [ "icons", "sprite", "flags", "famfamfam" ],
     "homepage": "http://github.com/atelierspierrot/famfamfam-flags-sprite",
-    "version": "1.0.0",
     "authors": [{
         "name": "FamFamFam",
         "homepage": "http://www.famfamfam.com/"
@@ -25,6 +24,9 @@
             "famfamfam-flags-icons": {
                 "css": "flags-sprite.min.css"
             }
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }
