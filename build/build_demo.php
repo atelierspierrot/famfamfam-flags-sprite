@@ -17,17 +17,25 @@
 $dtmz = @date_default_timezone_get();
 date_default_timezone_set($dtmz?:'Europe/Paris');
 
+// only command line usage
+if (php_sapi_name() != 'cli') {
+    die('This file is for command line usage only!');
+}
+
+// generating the demo content
 ob_start();
 include __DIR__.'/demo.php';
 $output = ob_get_contents();
 ob_end_clean();
 
+// generating the demo file
 if (false!==file_put_contents(__DIR__.'/../demo/index.html', $output)) {
     echo "OK - 'demo/index.html' has been refreshed!".PHP_EOL;
 } else {
     echo "KO ! - An error occures while trying to write in 'demo/index.html'!".PHP_EOL;
 }
 
+// end of work
 exit();
 
 // Endfile
