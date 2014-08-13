@@ -29,7 +29,7 @@ in your `bower.json`:
 
     "dependencies": {
         ...
-        "atelierspierrot/famfamfam-flags-sprite": "dev-master"
+        "famfamfam-flags-sprite": "atelierspierrot/famfamfam-flags-sprite#master"
     }
 
 If you are a [Composer](http://getcomposer.org/) user, the package is referenced to 
